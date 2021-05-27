@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class AddChar {
 	public static void main(String[] args)
 	{
+                int a = 28;
+		int b = 45;
+		int c = 0;
 		char ch1;
 		char ch2;
 	//	char result;
@@ -12,9 +15,9 @@ public class AddChar {
 		ch1= sc.next().charAt(0);
 		System.out.println("enter ch2 :");
 		ch2= sc.next().charAt(1);
-	//	System.out.println(" "+ch1);
-	//	System.out.println(" "+ch2);
-	  
+		
+		System.out.println(+(a+b));
+	        
 		
 		
 	}
